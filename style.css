@@ -1,1 +1,57 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+/* BODY */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #0a0a0a;
+  color: #ffffff;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: rgba(0,0,0,0.8);
+}
+
+nav h1 {
+  color: gold;
+  font-size: 24px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* HERO SECTION */
+.hero {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 50px;
+  color: gold;
+}
+
+.hero p {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #ccc;
+}
