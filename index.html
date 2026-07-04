@@ -3,7 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Shiran Global | Premium Export Company</title>
+
+<meta name="description" content="Shiran Global exports premium coconut products, spices, fruits and vegetables worldwide. Trusted supplier from Kerala.">
 
 <link rel="stylesheet" href="style.css">
 
@@ -12,63 +15,100 @@
 
 <body>
 
-<!-- NAVBAR -->
-<header>
-  <div class="navbar">
+<!-- HEADER -->
+<header class="header">
+  <div class="container navbar">
 
     <div class="logo">
-      <img src="logo.PNG" alt="Shiran Global">
+      <img src="logo.PNG" alt="Shiran Global Logo">
       <span>Shiran Global</span>
     </div>
 
-    <nav>
+    <nav class="nav">
       <a href="#">Home</a>
-      <a href="#">About</a>
       <a href="#">Products</a>
       <a href="#">Contact</a>
     </nav>
 
-    <a href="#" class="btn">Request Quote</a>
+    <a href="#contact" class="btn">Request Quote</a>
 
   </div>
 </header>
 
 <!-- HERO -->
 <section class="hero">
-  <div class="overlay">
+  <div class="hero-content">
     <h1>Exporting Kerala’s Finest To The World</h1>
     <p>Premium Coconut Products, Spices, Fruits & Vegetables</p>
-    <a href="#" class="btn">Explore Products</a>
+    <a href="#products" class="btn">Explore Products</a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section about">
+  <div class="container">
+    <h2>Who We Are</h2>
+    <p>
+      Shiran Global is a trusted export company delivering high-quality agricultural products
+      from Kerala to global markets with reliability, consistency, and excellence.
+    </p>
   </div>
 </section>
 
 <!-- PRODUCTS -->
-<section class="products">
-  <h2>Our Products</h2>
+<section id="products" class="section products">
+  <div class="container">
+    <h2>Our Products</h2>
 
-  <div class="grid">
-    <div class="card">🥥 Coconut Products</div>
-    <div class="card">🌶️ Spices</div>
-    <div class="card">🍍 Fruits</div>
-    <div class="card">🥦 Vegetables</div>
+    <div class="grid">
+      <div class="card">🥥 Coconut Products</div>
+      <div class="card">🌶️ Spices</div>
+      <div class="card">🍍 Fruits</div>
+      <div class="card">🥦 Vegetables</div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="stats">
+  <div class="container stats-grid">
+    <div><h3>10+</h3><p>Countries</p></div>
+    <div><h3>500+</h3><p>Clients</p></div>
+    <div><h3>5+</h3><p>Years Experience</p></div>
   </div>
 </section>
 
 <!-- CONTACT -->
-<section class="contact">
-  <h2>Contact Us</h2>
+<section id="contact" class="section contact">
+  <div class="container">
+    <h2>Contact Us</h2>
 
-  <p>
-    Email: 
-    <a href="mailto:shiranshiranglobal@gmail.com">
-      shiranshiranglobal@gmail.com
-    </a>
-  </p>
+    <p>Email: 
+      <a href="mailto:shiranshiranglobal@gmail.com">
+        shiranshiranglobal@gmail.com
+      </a>
+    </p>
 
+  </div>
 </section>
 
-<!-- WHATSAPP -->
-<a href="https://wa.me/919876543210" class="whatsapp" target="_blank">💬</a>
+<!-- WHATSAPP FLOAT -->
+<a href="https://wa.me/918593917832?text=Hello%20Shiran%20Global%2C%20I%20am%20interested%20in%20your%20products" 
+class="whatsapp" target="_blank">💬</a>
+
+<!-- WHATSAPP POPUP -->
+<div id="wa-popup" class="wa-popup">
+  <p>Hi 👋 Need help with our products?</p>
+  <a href="https://wa.me/918593917832?text=Hello%20Shiran%20Global%2C%20I%20am%20interested%20in%20your%20products">
+    Chat Now
+  </a>
+</div>
+
+<script>
+setTimeout(() => {
+  document.getElementById("wa-popup").style.display = "block";
+}, 5000);
+</script>
 
 </body>
 </html>
